@@ -1,0 +1,100 @@
+%common{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+
+    background-color: $background_color;
+}
+main{
+    @extend %common ;
+    background-color:$card_color;
+    border-style: solid;
+    width:$width-phone;
+    height:$height-phone;
+
+    border-radius: $card-radius-phone;
+    margin-top:46.2px;
+    
+
+}
+section{
+
+    text-align: center;
+    
+
+
+    h1{
+       width:$title-width;
+       font-size: $font_size;
+       font-family: $default_font_family;
+       font-weight: $normal;
+       @extend %common ;
+       margin-top: 22.34px;
+
+    }
+    #search{
+        width:205.48px;
+        height:32px;
+        background-color: $input_color;
+        border: solid 1px;
+        border-radius: 5px;
+        border-style:none;
+    }
+    button{
+        width:45px;
+        height:32px;
+        background-color: $icon_color;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-style:none;
+    }
+    #form{
+        display:flex;
+        justify-content: center;
+        position: relative;
+        margin-top: 19.61px;
+        
+    }
+    hr{
+        width:320px ;
+        height:0px;
+        margin-top:15px;   
+    }
+
+
+}
+
+#selector1{
+    width:300px;
+    height:55px;
+    background-color: $input_color;
+    border-radius: 5px;
+    @extend %common;
+    margin-top: 16.85px;
+   
+
+}
+#option1{
+
+    width:20px;
+    height:20px;
+    margin-top:17.5px;
+    position: relative;
+    right:118.21px;
+    
+}
+#option2,#option3{
+    display: none;
+}
+label{display: none;}
+#option1{
+    appearance: none;
+    background-color:$check_color;
+}
+
+
+
+
+

@@ -1,0 +1,77 @@
+/*Card Sizes*/
+/*Font family*/
+/*Colors*/
+/*title size*/
+main, section h1, #selector1 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto; }
+
+body {
+  background-color: #3F72AF; }
+
+main {
+  background-color: #F9F7F7;
+  border-style: solid;
+  width: 350px;
+  height: 500px;
+  border-radius: 10px;
+  margin-top: 46.2px; }
+
+section {
+  text-align: center; }
+  section h1 {
+    width: 189px;
+    font-size: 40px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    margin-top: 22.34px; }
+  section #search {
+    width: 205.48px;
+    height: 32px;
+    background-color: #DBE2EF;
+    border: solid 1px;
+    border-radius: 5px;
+    border-style: none; }
+  section button {
+    width: 45px;
+    height: 32px;
+    background-color: #AAAAAA;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-style: none; }
+  section #form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 19.61px; }
+  section hr {
+    width: 320px;
+    height: 0px;
+    margin-top: 15px; }
+
+#selector1 {
+  width: 300px;
+  height: 55px;
+  background-color: #DBE2EF;
+  border-radius: 5px;
+  margin-top: 16.85px; }
+
+#option1 {
+  width: 20px;
+  height: 20px;
+  margin-top: 17.5px;
+  position: relative;
+  right: 118.21px; }
+
+#option2, #option3 {
+  display: none; }
+
+label {
+  display: none; }
+
+#option1 {
+  appearance: none;
+  background-color: #36CF00; }
+
+/*# sourceMappingURL=styles.css.map */
